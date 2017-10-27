@@ -34,6 +34,36 @@ div{
   vertical-align: top;
   line-height: 108px;
 }
-.options div{
+.options span{
   padding: 0 8px 0;
+}
+.presentation{
+  padding-top:108px;
+  background-color: yellow;
+  display: block;
+  width: 100%;
+  height: 686px;
+  background-color: #18bc9c;
+}
+.portfolio{
+  display: block;
+  width: 100%;
+  height: 883px;
+}
+.about{
+  display: block;
+  width: 100%;
+  height: 578px;
+  background-color: #18bc9c;
+}
+.contact{
+  display: block;
+  width: 100%;
+  height: 937px;
+}
+footer{
+  display: block;
+  width: 100%;
+  height: 343px;
+  background-color: #2c3e50;
 }

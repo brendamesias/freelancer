@@ -12,6 +12,7 @@ header{
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   background-color: #2c3e50;
+  z-index: 1000;
 }
 div{
   /*outline: 1px solid pink;*/
@@ -39,27 +40,30 @@ div{
 }
 .presentation{
   padding-top:108px;
-  background-color: yellow;
   display: block;
   width: 100%;
   height: 686px;
   background-color: #18bc9c;
+  text-align: center;
 }
 .portfolio{
   display: block;
   width: 100%;
   height: 883px;
+  text-align: center;
 }
 .about{
   display: block;
   width: 100%;
   height: 578px;
   background-color: #18bc9c;
+  text-align: center;
 }
 .contact{
   display: block;
   width: 100%;
   height: 937px;
+  text-align: center;
 }
 footer{
   display: block;
@@ -67,13 +71,93 @@ footer{
   height: 343px;
   background-color: #2c3e50;
 }
-.presentation{
-  display: block;
-  text-align: center;
-
-}
 .presentation img{
   display:inline-block;
-  padding-top: 43px;
+  padding-top: 92px;
 
+}
+.presentation strong{
+  /*outline: 1px solid green;*/
+  display:block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 480%;
+  font-weight: 900;
+  padding-top: 25px;
+}
+ .presentation hr{
+  /*outline: 1px solid red;*/
+  width: 16%;
+  height: 5px;
+  background-color: white;
+  border: none;
+  margin-top: 38px;
+  position: static;
+}
+ .presentation .icon-star-full{
+    content: "\e9d9";
+    /*outline: 1px solid black;*/
+    font-size: 30px;
+    position: relative;
+    bottom: 28px;
+    background-color: #18bc9c;
+    padding: 0 7px 0 ;
+    z-index: 10;
+}
+.presentation p{
+  /*outline: 1px solid black*/
+  font-size: 28px;
+  margin: 0;
+  position: relative;
+  bottom: 8px;
+  font-family: 'Lato', sans-serif;
+  z-index: 10;
+}
+.portfolio p{
+  /*outline: 1px solid blue;*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #212529;
+  margin: 90px 0 0;
+  padding: 0;
+}
+.portfolio hr{
+  width: 16%;
+  height: 5px;
+  background-color: #2c3e50;
+  border: none;
+  margin-top: 38px;
+  position: static;
+}
+.portfolio .icon-star-full{
+  content: "\e9d9";
+  /*outline: 1px solid black;*/
+  font-size: 30px;
+  position: relative;
+  bottom: 28px;
+  color:  #2c3e50;
+  padding: 0 7px 0 ;
+  z-index: 10;
+  background-color: white;
+  margin: 0;
+}
+.portfolio .content_portfolio{
+  /*outline: 2px solid green;*/
+  display: block;
+  position: relative;
+  bottom: 20px;
+  margin: 0;
+}
+.container_images{
+  display: inline-block;
+  column-count: 3;
+  column-gap: 0px;
+  margin: 0 13% 0;
+}
+.container_images img{
+  display: inline;
+  width:350px;
+  height: 253px;
+  padding: 15px;
+  margin: 0;
 }

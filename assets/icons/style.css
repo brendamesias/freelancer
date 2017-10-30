@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?73ldcl');
-  src:  url('fonts/icomoon.eot?73ldcl#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?73ldcl') format('truetype'),
-    url('fonts/icomoon.woff?73ldcl') format('woff'),
-    url('fonts/icomoon.svg?73ldcl#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ulsjqb');
+  src:  url('fonts/icomoon.eot?ulsjqb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ulsjqb') format('truetype'),
+    url('fonts/icomoon.woff?ulsjqb') format('woff'),
+    url('fonts/icomoon.svg?ulsjqb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,9 @@
 
 .icon-basketball:before {
   content: "\e900";
+}
+.icon-download3:before {
+  content: "\e9c7";
 }
 .icon-star-full:before {
   content: "\e9d9";

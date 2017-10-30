@@ -49,7 +49,7 @@ div{
 .portfolio{
   display: block;
   width: 100%;
-  height: 883px;
+  height: 800px;
   text-align: center;
 }
 .about{
@@ -160,4 +160,96 @@ footer{
   height: 253px;
   padding: 15px;
   margin: 0;
+}
+.about .title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #white;
+  margin: 0;
+  padding-top: 100px;
+}
+.about hr{
+  width: 16%;
+  height: 5px;
+  background-color: white;
+  padding: 0;
+  margin-top: 38px;
+  position: relative;
+  bottom: 15px;
+  display: block;
+}
+.about .icon-star-full{
+  content: "\e9d9";
+  /*outline: 1px solid black;*/
+  font-size: 30px;
+  position: relative;
+  bottom: 140px;
+  background-color: #18bc9c;
+  padding: 10px;
+  left: 450px;
+  /*padding: 0 7px 0 ;*/
+  z-index: 10;
+  /*display:block;*/
+}
+.container_text{
+  display:inline-block;
+  /*outline: 2px solid red;*/
+  column-count: 2;
+  column-gap: 80px;
+  width: 700px;
+  height: 180px;
+  padding: 0 100px 0;
+  margin-top: 30px;
+}
+.about .text{
+  /*outline: 2px solid pink;*/
+  display: inline-block;
+  width: 350px;
+  height: 180px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 21px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+}
+.container_download{
+/*outline: 2px solid green;*/
+  display: block;
+  margin-top: 35px;
+  text-align: center;
+}
+.bottom_download{
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 209px;
+  height: 46px;
+  border-color: white;
+  border-radius: 10px;
+  text-align: center;
+
+}
+.icon-download3{
+  /*outline: 1px solid black;*/
+  display: inline;
+  font-size: 20px;
+  padding: 0 1px 0;
+  vertical-align: middle;
+  position: relative;
+  top: 10px;
+}
+.text_download{
+  /*outline: 2px solid red;*/
+  display: inline;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  vertical-align: middle;
+  position: relative;
+  top: 10px;
+}
+.container_download :hover{
+  color: #18bc9c;
+  background-color: white;
 }

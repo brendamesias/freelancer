@@ -64,6 +64,7 @@ div{
   width: 100%;
   height: 937px;
   text-align: center;
+  background-color: white;
 }
 footer{
   display: block;
@@ -282,3 +283,54 @@ footer{
   z-index: 10;
   background-color: white;
   margin: 0;
+}
+.container_input{
+  /*outline: 2px solid red;*/
+  display:block;
+  text-align: center;
+  margin: 20px 0 100px;
+}
+.container_boxes{
+  /*outline: 2px soli blue;*/
+  display: inline-block;
+  width: 730px;
+  height: 604px;
+}
+.input_box{
+  /*outline: 2px solid black;*/
+  display:block;
+  width: 730px;
+  height: 70px;
+  padding-top: 23px;
+  padding-bottom:5px;
+}
+input{
+  /*outline: 2px solid green;*/
+  width: 730px;
+  height: 48px;
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+  border:none;
+  display: block;
+  outline: 0;
+}
+.container_boxes span{
+  margin-top: 50px;
+  display:inline;
+  float: left;
+  /*outline: 2px solid orange;*/
+  background-color: #18bc9c;
+  padding: 10px 20px 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 130px;
+}
+.container_boxes hr{
+  display: inline-block;
+  width: 100%;
+  height: 0.5px;
+  padding-top: 0;
+  margin-top: 0;
+}
